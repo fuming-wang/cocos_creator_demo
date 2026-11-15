@@ -562,8 +562,13 @@ export class CarKingGame extends Component {
         this.changeLane(event.getLocationX() < view.getVisibleSize().width / 2 ? -1 : 1);
     }
 
+    /** Moves the player in screen space: `-1` is left, `+1` is right. */
     private changeLane(direction: number): void {
-        this.lane = Math.max(0, Math.min(2, this.lane + direction));
+        // The camera sits behind the player and looks down +Z, so its own +X axis
+        // points to world -X. World -X (the first LANE_X entry) is therefore on the
+        // right of the screen, and a larger lane index is further left: the index
+        // has to move against the requested direction to make A/LEFT go left.
+        this.lane = Math.max(0, Math.min(2, this.lane - direction));
     }
 
     private endGame(): void {
