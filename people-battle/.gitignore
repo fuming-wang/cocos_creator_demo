@@ -1,0 +1,8 @@
+library/
+local/
+temp/
+build/
+cache/
+profiles/v2/packages/
+*.log
+node_modules/
