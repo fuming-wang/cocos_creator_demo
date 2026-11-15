@@ -5,5 +5,5 @@
   "creator": {
     "version": "3.8.8"
   },
-  "description": "Turn-based two-fighter duel demo made with Cocos Creator 3.8.8"
+  "description": "Turn-based 4v4 team battle demo made with Cocos Creator 3.8.8"
 }
