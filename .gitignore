@@ -1,3 +1,11 @@
+# Cocos Creator generated files — shared by every demo in this repository
+library/
+local/
+temp/
+build/
+cache/
+**/profiles/v2/packages/
+
 # Compiled class file
 *.class
 
