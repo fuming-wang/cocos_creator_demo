@@ -1,0 +1,9 @@
+{
+  "name": "car-king",
+  "uuid": "b4c1d5a7-9e21-4f76-8a32-5c0d1e9f7b63",
+  "version": "1.0.0",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "description": "Three-lane overtake game demo made with Cocos Creator 3.8.8"
+}
