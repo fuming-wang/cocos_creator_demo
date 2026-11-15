@@ -1,0 +1,7 @@
+library/
+local/
+temp/
+build/
+cache/
+profiles/v2/packages/
+*.log
